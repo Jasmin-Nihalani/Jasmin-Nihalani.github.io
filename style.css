@@ -598,4 +598,11 @@ body {
       font-size: 18px;
     }
   }
+  @media (max-width: 980px) {
+    .blink,
+    .steam {
+      display: none;
+    }
+  }
+
 }
