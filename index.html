@@ -1,175 +1,240 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jasmin Nihalani</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-</head>
-
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Jasmin Nihalani</title>
+      
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+      
+        <link rel="stylesheet" href="style.css" />
+      </head>
 <body>
-    
- <header class="hero">   
- <h1>
-    <span id="site-title">Jasmin Nihalani</span>
- </h1> 
- <p id="subhead">
-    SENIOR DATA JOURNALIST
-    <br><br>
-    I lead a team of designers, an illustrator, and a developer to produce visual, data-driven stories for BBC’s 
-    six Indian languages. Previously, I worked with The Hindu's data team.
-    <br>
-    You can reach me at <i>nihalani.66@gmail.com.</i>
- </p>
-</header>
+  <div class="page-wrap">
 
-<h2 id="sub">Select works</h2>
+    <header class="hero">
+        <div class="hero-shell">
+      
+          <div class="hero-top">
+            <div class="avatar-wrap" aria-hidden="true">
+              <img src="Assets/avatar.png" class="avatar" alt="" />
+      
+              <span class="steam steam-1"></span>
+              <span class="steam steam-2"></span>
+              <span class="steam steam-3"></span>
+      
+              <span class="blink blink-left"></span>
+              <span class="blink blink-right"></span>
+            </div>
+      
+            <div class="hero-copy">
+              <h1 class="site-title">
+                <span class="type-name">Jasmin Nihalani</span>
+              </h1>
+      
+              <p class="role">I lead a team of designers, an illustrator, and a developer to produce visual, data-driven stories for BBC’s six Indian languages. Previously, I worked with The Hindu's data team.
+                You can reach me at nihalani.66@gmail.com.</p>
+      
+              <p class="socials">
+                <a href="https://www.linkedin.com/in/jasmin-nihalani-5b642611b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <span>|</span>
+                <a href="https://x.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+              </p>
+            </div>
+          </div>
+      
+          <nav class="section-nav">
+            <button class="nav-btn active" data-target="charts" type="button">Chart arcade</button>
+            <button class="nav-btn" data-target="scrolly" type="button">Scrolly</button>
+            <button class="nav-btn" data-target="archive" type="button">Data Point archive</button>
+          </nav>
+      
+        </div>
+      </header>
 
-<section class="works">
-<div class="work-grid">
-    <article class="work-card">
-        <a href="https://jasmin-nihalani.github.io/bollywood-romance/"
-        class="work-link">
-        <figure class="thumb">
-            <video autoplay muted loop playsinline>
-               <source src="Assets/scrolly-asset-1.mp4" type="video/mp4">
-               Your browser does not support the video tag. 
-            </video>
-        </figure>
-        <h3 class="work-title">How has Bollywood changed in the last 30 years?
-        </h3>
-        <p>GitHub</p>
-    </a>
-    </article>
-
-    <article class="work-card">
-        <a href="https://www.bbc.com/hindi/resources/idt-725275a9-8a51-4cca-920b-633bf9722570"
-        class="work-link">
-        <figure class="thumb">
-            <video autoplay muted loop playsinline>
-               <source src="Assets/scrolly-asset-2.mp4" type="video/mp4">
-               Your browser does not support the video tag. 
-            </video>
-        </figure>
-        <h3 class="work-title">Maha Kumbh: Behind the world's largest gathering
-        </h3>
-        <p>BBC Hindi</p>
-    </a>
-    </article>
-
-    <article class="work-card">
-        <a href="https://www.thehindu.com/data/data-why-the-rupee-is-under-pressure-explained-in-seven-charts/article65706988.ece"
-        class="work-link">
-        <figure class="thumb" style="aspect-ratio: 3.5 / 5;">
-            <img src="Assets/rupee-asset-1.jpg" alt="Project 1">
-        </figure>
-        <h3 class="work-title">Why is the rupee under pressure?
-        </h3>
-        <p>The Hindu</p>
-    </a>
-    </article>
-
-    <article class="work-card">
-        <figure class="thumb" style="aspect-ratio: 3.5 / 5;">
-            <img src="Assets/election-asset-1.jpg" alt="Project 2">
-        </figure>
-        <h3 class="work-title">2024 Indian general election results
-        </h3>
-        <p>The Hindu</p>
-    </article>
-
-    <article class="work-card">
-        <a href="https://www.bbc.com/hindi/articles/cev2z49mwnyo"
-        class="work-link">
-        <figure class="thumb thumb-contain">
-            <img src="Assets/oil-asset-1.png" alt="Project 4">
-        </figure>
-        <h3 class="work-title">What would happen if India stopped buying Russian oil
-        </h3>
-        <p>BBC Hindi</p>
-    </a>
-    </article>
-
-    <article class="work-card">
-        <a href="https://www.bbc.com/hindi/articles/c24v5zeje7vo"
-        class="work-link">
-        <figure class="thumb thumb-contain">
-            <img src="Assets/boeing-asset-1.png" alt="Project 5">
-        </figure>
-        <h3 class="work-title">How often have Air India flights and Boeing aircraft been involved in fatal accidents?
-        </h3>
-        <p>BBC Hindi</p>
-    </a>
-    </article>
-
-    <article class="work-card">
-        <a href="https://www.thehindu.com/data/india-among-a-select-few-countries-that-have-not-conducted-the-census-data/article68327672.ece"
-        class="work-link">
-        <figure class="thumb thumb-contain">
-            <img src="Assets/census-asset-1.png" alt="Project 3">
-        </figure>
-        <h3 class="work-title">India among a select few countries that have not conducted the Census
-        </h3>
-        <p>The Hindu</p>
-    </a>
-    </article>
-
-    <article class="work-card">
-        <a href="https://www.bbc.com/gujarati/articles/cy4exp8pwllo"
-        class="work-link">
-        <figure class="thumb thumb-contain">
-            <img src="Assets/GDP-asset-1.png" alt="Project 6">
-        </figure>
-        <h3 class="work-title">Has India overtaken Japan to become the fourth-largest economy?
-        </h3>
-        <p>BBC Gujarati</p>
-    </a>
-    </article>
+    <main>
+        <section id="charts" class="content-section active-section">
+            <div class="chart-grid collage-grid">
 
 
-    <article class="work-card">
-        <a href="https://www.thehindu.com/data/are-poor-quality-courses-in-the-uk-impacting-indian-students/article67208274.ece"
-        class="work-link">
-        <figure class="thumb thumb-contain">
-            <img src="Assets/UK-asset-1.png" alt="Project 7">
-        </figure>
-        <h3 class="work-title">Are “poor quality” courses in the U.K. impacting Indian students?
-        </h3>
-        <p>The Hindu</p>
-    </a>
-    </article>
+              <article class="story-card story-women">
+                <a href="https://www.thehindu.com/data/women-reservation-bill-in-20-states-uts-less-than-10-mlas-are-female-data/article67338512.ece" target="_blank" rel="noopener noreferrer" class="story-link">
+                  <img src="Assets/women-MLAs.png" alt="">
+                </a>
+              </article>
+
+              <article class="story-card story-census">
+                <a href="https://www.thehindu.com/data/india-among-a-select-few-countries-that-have-not-conducted-the-census-data/article68327672.ece" target="_blank" rel="noopener noreferrer" class="story-link">
+                  <img src="Assets/census.png" alt="">
+                </a>
+              </article>
+
+              <article class="story-card story-h1b">
+                <a href="https://www.bbc.com/hindi/articles/ckg6p65gr3po" target="_blank" rel="noopener noreferrer" class="story-link">
+                  <img src="Assets/H1B-salary.png" alt="">
+                </a>
+              </article>
+
+              <article class="story-card story-boeing">
+                <a href="https://www.bbc.com/hindi/articles/c24v5zeje7vo" target="_blank" rel="noopener noreferrer" class="story-link">
+                  <img src="Assets/Boeing-accidents.png" alt="">
+                </a>
+              </article>
+
+              <article class="story-card story-delhi">
+                <a href="https://www.bbc.com/hindi/resources/idt-a1309619-0ea5-4d6b-a2ca-40b8ef9fadc2" target="_blank" rel="noopener noreferrer" class="story-link">
+                  <img src="Assets/Delhi-pollution.png" alt="">
+                </a>
+              </article>
+
+              <article class="story-card story-uk">
+                <a href="https://www.thehindu.com/data/are-poor-quality-courses-in-the-uk-impacting-indian-students/article67208274.ece" target="_blank" rel="noopener noreferrer" class="story-link">
+                  <img src="Assets/UK-students.png" alt="">
+                </a>
+              </article>
+
+              <article class="story-card story-heat">
+                <a href="https://www.thehindu.com/data/extreme-events-in-the-capital-data/article68393119.ece" target="_blank" rel="noopener noreferrer" class="story-link">
+                  <img src="Assets/Delhi-heat.png" alt="">
+                </a>
+              </article>
+
+              <article class="story-card story-oil">
+                <a href="https://www.bbc.com/hindi/articles/cev2z49mwnyo" target="_blank" rel="noopener noreferrer" class="story-link">
+                  <img src="Assets/Russia-oil.png" alt="">
+                </a>
+              </article>
+            </div>
+          </section>
+
+      <section id="scrolly" class="content-section">
+        <div class="video-grid">
+
+          <article class="video-card">
+            <a href="https://jasmin-nihalani.github.io/bollywood-romance/" target="_blank">
+              <video autoplay muted loop playsinline>
+                <source src="Assets/scrolly-asset-1.mp4" type="video/mp4">
+              </video>
+
+              <h3 class="video-title">How Bollywood changed in the last three decades?</h3>
+            </a>
+          </article>
+
+          <article class="video-card">
+            <a href="https://www.bbc.com/hindi/resources/idt-a1309619-0ea5-4d6b-a2ca-40b8ef9fadc2" target="_blank">
+              <video autoplay muted loop playsinline>
+                <source src="Assets/scrolly-asset-3.mp4" type="video/mp4">
+              </video>
+
+              <h3 class="video-title">How bad is the air Delhi breathes?</h3>
+            </a>
+          </article>
+
+          <article class="video-card">
+            <a href="https://www.bbc.com/hindi/resources/idt-725275a9-8a51-4cca-920b-633bf9722570" target="_blank">
+              <video autoplay muted loop playsinline>
+                <source src="Assets/scrolly-asset-2.mp4" type="video/mp4">
+              </video>
+
+              <h3 class="video-title">Maha Kumbh: Behind the world's largest gathering</h3>
+            </a>
+          </article>
+
+        </div>
+      </section>
+
+      <section id="archive" class="content-section">
+        <div class="archive-grid">
+          <button class="archive-item" type="button" data-image="Assets/Electoral-bonds.jpg">
+            <img src="Assets/Electoral-bonds.jpg" alt="">
+          </button>
+
+          <button class="archive-item" type="button" data-image="Assets/Centre-state.jpg">
+            <img src="Assets/Centre-state.jpg" alt="">
+          </button>
+
+          <button class="archive-item" type="button" data-image="Assets/Fertility-levels.jpg">
+            <img src="Assets/Fertility-levels.jpg" alt="">
+          </button>
+
+          <button class="archive-item" type="button" data-image="Assets/UK-students.jpg">
+            <img src="Assets/UK-students.jpg" alt="">
+          </button>
+
+          <button class="archive-item" type="button" data-image="Assets/rice-export.jpg">
+            <img src="Assets/rice-export.jpg" alt="">
+          </button>
+
+          <button class="archive-item" type="button" data-image="Assets/IBC.jpg">
+            <img src="Assets/IBC.jpg" alt="">
+          </button>
+
+          <button class="archive-item" type="button" data-image="Assets/rupee-asset-1.jpg">
+            <img src="Assets/rupee-asset-1.jpg" alt="">
+          </button>
+
+          <button class="archive-item" type="button" data-image="Assets/UP-election.jpg">
+            <img src="Assets/UP-election.jpg" alt="">
+          </button>
+
+          <button class="archive-item" type="button" data-image="Assets/election-asset-1.jpg">
+            <img src="Assets/election-asset-1.jpg" alt="">
+          </button>
+
+          <button class="archive-item" type="button" data-image="Assets/Neet scores.jpg">
+            <img src="Assets/Neet scores.jpg" alt="">
+          </button>
 
 
-    <article class="work-card">
-        <a href="https://www.thehindu.com/data/data-friction-over-revenue-sharing-formula-why-some-states-get-more-money-from-centre/article66625863.ece"
-        class="work-link">
-        <figure class="thumb thumb-contain">
-            <img src="Assets/tax-asset-1.png" alt="Project 8">
-        </figure>
-        <h3 class="work-title">Why some States in India get more money from Centre?
-        </h3>
-        <p>The Hindu</p>
-    </a>
-    </article>
+        </div>
+      </section>
+    </main>
+  </div>
 
+  <div class="modal" id="imageModal">
+    <button class="modal-close" id="modalClose" type="button">×</button>
+    <img id="modalImage" class="modal-image" alt="">
+  </div>
 
+  <script>
+    const navButtons = document.querySelectorAll(".nav-btn");
+    const sections = document.querySelectorAll(".content-section");
 
+    navButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        const target = button.dataset.target;
 
+        navButtons.forEach(btn => btn.classList.remove("active"));
+        sections.forEach(section => section.classList.remove("active-section"));
 
-</div>
-</section>
+        button.classList.add("active");
+        document.getElementById(target).classList.add("active-section");
+      });
+    });
 
+    const modal = document.getElementById("imageModal");
+    const modalImage = document.getElementById("modalImage");
+    const modalClose = document.getElementById("modalClose");
+    const archiveItems = document.querySelectorAll(".archive-item");
 
+    archiveItems.forEach(item => {
+      item.addEventListener("click", () => {
+        modalImage.src = item.dataset.image;
+        modal.classList.add("open");
+      });
+    });
 
+    modalClose.addEventListener("click", () => {
+      modal.classList.remove("open");
+      modalImage.src = "";
+    });
 
-
-
-
-
-
-
-
-
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) {
+        modal.classList.remove("open");
+        modalImage.src = "";
+      }
+    });
+  </script>
 </body>
 </html>
